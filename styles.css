@@ -1,0 +1,23 @@
+body{
+    background-color: #111;
+    color:#fff;
+    padding: 2rem;
+}
+.heading{
+    margin-bottom: 1rem;
+}
+.url-input{
+    margin-bottom: 1rem;
+}
+.download-btn{
+    margin-bottom: 1rem;
+}
+.format {
+  margin-left: 10px;
+}
+
+#download-status {
+  margin-top: 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GR video downloader</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2 class="heading">GR Youtube DL</h2>
+    <input
+      id="url"
+      type="text"
+      placeholder="Paste video URL here"
+      style="width: 80%"
+      class="url-input"
+    />
+    <select id="format" class="format">
+      <option value="">(Default)</option>
+      <!-- This enables basic mode -->
+      <option value="best">Best</option>
+      <option value="worst">Worst</option>
+      <option value="bestaudio">Audio Only</option>
+      <option value="bestvideo">Video Only</option>
+    </select>
+    <button type="button" onclick="chooseFolder()" class="btn btn-primary">
+      Choose Folder
+    </button>
+    <span id="folderPath">No folder selected</span>
+    <br /><br />
+    <button
+      type="button"
+      onclick="download()"
+      class="btn btn-success download-btn"
+    >
+      Download
+    </button>
+    <p id="download-status"></p>
+    <pre
+      id="log"
+      style="background: #201f1f; padding: 10px; height: 200px; overflow: auto"
+    ></pre>
+
+    <script src="renderer.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
