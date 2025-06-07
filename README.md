@@ -12,7 +12,7 @@ This project is a desktop application for downloading YouTube videos. It allows 
 ## Features
 
 *   Download YouTube videos by providing a URL.
-*   (To be Added) Choose video quality and format (inferred from the presence of ffmpeg).
+*   Choose video quality and format using ffmpeg.
 
 ## Technologies Used
 
@@ -61,8 +61,9 @@ This project is a desktop application for downloading YouTube videos. It allows 
 5.  `ffprobe.exe` could be used to get information about the video.
 6.  `ffplay.exe` might be integrated to allow playing the downloaded videos. -->
 
+<!--
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please make sure to update tests as appropriate.-->
