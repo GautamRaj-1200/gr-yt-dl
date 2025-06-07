@@ -22,6 +22,9 @@
     "files": [
       "**/*"
     ],
+    "win": {
+      "icon": "assets/icon.ico"
+    },
     "extraResources": [
       "./yt-dlp.exe",
       "./ffmpeg.exe",
