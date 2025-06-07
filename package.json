@@ -18,7 +18,7 @@
   "author": "",
   "build": {
     "appId": "com.example.gr-video-downloader",
-    "productName": "GR Video Downloader",
+    "productName": "GR Youtube Dl",
     "files": [
       "**/*"
     ],
