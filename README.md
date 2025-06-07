@@ -1,4 +1,6 @@
-# YouTube Video Downloader
+# GR Youtube Dl
+
+> **Disclaimer:** This is a personal project created for the purpose of learning Electron.js and understanding the workflow of building and shipping desktop applications. This application is essentially a graphical user interface (GUI) wrapper for the powerful open-source command-line tool `yt-dlp`. All video downloading capabilities are handled by `yt-dlp`, and this project does not claim ownership of that functionality. Users should be aware of the copyright laws in their respective countries when downloading content from the internet.
 
 This project is a desktop application for downloading YouTube videos. It allows users to input a YouTube video URL and download the video to their local machine.
 
